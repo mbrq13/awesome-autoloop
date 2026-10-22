@@ -1,30 +1,29 @@
-## Summary
+## Change
 
-<!-- What work or correction does this PR add? -->
+<!-- New work, corrected claim, metadata repair or link update. -->
 
-## Evidence
+## Primary evidence
 
-- Primary paper:
-- Official project page:
-- Official code:
-- Venue / status:
-- Simulation or physical robot:
+- Canonical paper and version:
+- First-public date; venue/status evidence:
+- Method / experiment / appendix locator:
+- Official project, code and data (or release uncertainty):
 
-## Mechanism
+## Classification
 
-- [ ] Learned reset
-- [ ] Procedural reset
-- [ ] Task chaining / reset avoidance
-- [ ] Local failure recovery
-- [ ] Agentic / compositional reset
-- [ ] Autonomous evaluation or data collection
-- [ ] Closed-loop policy improvement
-- [ ] Reversibility / recoverability benchmark
+- Concrete environment-management behavior (restoration, recovery or sustained practice):
+- Objective (episodic reset, local recovery, task chaining, collection, learning, safety):
+- Mechanism (learned, scripted, planned, external hardware, hybrid, etc.):
+- Learning component and timing (online RL, between-round supervision, fixed, memory):
+- Physical or simulated evidence, and which capability was tested:
+- Remaining human work; measured duration/interventions, or not reported:
 
-## Checklist
+## Checks
 
-- [ ] I read `CONTRIBUTING.md`.
-- [ ] Claims are supported by a primary source.
-- [ ] I separated reset from recovery and simulation from real-world evidence.
-- [ ] I labeled non-peer-reviewed work as a preprint.
-- [ ] All added links resolve.
+- [ ] I read CONTRIBUTING.md and inspected methods and experiments, not only the abstract.
+- [ ] I distinguished reset from recovery, and physical evidence from simulator restoration.
+- [ ] Dates and the source version respect the stated research cutoff.
+- [ ] I preserved existing references or documented every replacement.
+- [ ] I checked for a duplicate canonical paper identity.
+- [ ] Local validation passed; external link failures were reviewed.
+- [ ] I previewed the Markdown and kept README / contribution rules consistent.
